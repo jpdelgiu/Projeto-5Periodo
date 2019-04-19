@@ -11,6 +11,7 @@ public class PlayerControllerA : MonoBehaviour
     private Vector3 moveInput;
     private Vector3 moveVelocity;
 
+    public string axisX, axisY; //input
 
     // Start is called before the first frame update
     void Start()
@@ -21,14 +22,14 @@ public class PlayerControllerA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveInput = new Vector3(Input.GetAxisRaw("HorizontalPlayerA"), 0, Input.GetAxisRaw("VerticalPlayerA")) * moveSpeedA;
-        moveVelocity = moveInput * moveSpeedA;
+        moveInput = new Vector3(Input.GetAxisRaw(axisX), 0, Input.GetAxisRaw(axisY)) * moveSpeedA; //movimenta o player
+        moveVelocity = moveInput * moveSpeedA; 
     }
 
 
     private void FixedUpdate()
     {
-        myRigidbody.velocity = moveVelocity;
+        myRigidbody.velocity = moveVelocity; //seta a velocidade
     }
 }
 
