@@ -5,7 +5,10 @@ using UnityEngine;
 public class PressurePlate : MonoBehaviour
 {
     public List<GameObject> Gates;
+
+    private float time = 2f;
     
+
     void Start()//Confirma se estão ativados
     {
         foreach (GameObject gates in Gates)
@@ -14,28 +17,50 @@ public class PressurePlate : MonoBehaviour
         }
     }
 
-    IEnumerator waitTime()
+    private void OnTriggerStay(Collider other)//confirma se o player ta em cima da placa de pressao
     {
-        yield return new WaitForSeconds(3);
+
+        Invoke("SetObjectTrue", time);
+
     }
 
-    private void OnTriggerExit(Collider other)//ativa portas quando sair
+    public void SetObjectTrue() //seta ativo o objeto
     {
-
-        
         foreach (GameObject gates in Gates)
         {
-            waitTime();
-            gates.SetActive(true);
+            if (gates != true)
+            {
+                gates.SetActive(true);
+            }
+            else
+            {
+                gates.SetActive(false);
+            }
+
         }
+    }
+
+    public void SetObjectFalse() //seta falso o objeto
+    {
+        foreach (GameObject gates in Gates)
+        {
+            if (gates != false)
+            {
+                gates.SetActive(true);
+            }
+            else
+            {
+                gates.SetActive(false);
+            }
+
+        }
+    }
+
+    private void OnTriggerExit(Collider other)//executa quando o player sai da placa de pressao
+    {
+        Invoke("SetObjectFalse", time);
     }
     
-    private void OnTriggerEnter(Collider other)//desativa portas quando entrar
-    {
-        foreach (GameObject gates in Gates)
-        {
-            gates.SetActive(false);
-        }
-    }
+    
     
 }
