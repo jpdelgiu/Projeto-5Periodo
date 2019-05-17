@@ -360,16 +360,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850932788576181521, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
-        type: 3}
-      propertyPath: axisX
-      value: HorizontalPlayerB
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850932788576181521, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
-        type: 3}
-      propertyPath: axisY
-      value: VerticalPlayerB
-      objectReference: {fileID: 0}
     - target: {fileID: 9020749463409955009, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
         type: 3}
       propertyPath: Horizontal
@@ -378,6 +368,16 @@ PrefabInstance:
     - target: {fileID: 9020749463409955009, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
         type: 3}
       propertyPath: Vertical
+      value: VerticalPlayerB
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850932788576181521, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: axisX
+      value: HorizontalPlayerB
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850932788576181521, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: axisY
       value: VerticalPlayerB
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1462,16 +1462,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8850932788576181521, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
-        type: 3}
-      propertyPath: axisX
-      value: HorizontalPlayerA
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850932788576181521, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
-        type: 3}
-      propertyPath: axisY
-      value: VerticalPlayerA
-      objectReference: {fileID: 0}
     - target: {fileID: 9020749463409955009, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
         type: 3}
       propertyPath: Horizontal
@@ -1480,6 +1470,16 @@ PrefabInstance:
     - target: {fileID: 9020749463409955009, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
         type: 3}
       propertyPath: Vertical
+      value: VerticalPlayerA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850932788576181521, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: axisX
+      value: HorizontalPlayerA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850932788576181521, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: axisY
       value: VerticalPlayerA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
