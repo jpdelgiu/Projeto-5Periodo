@@ -3205,6 +3205,11 @@ PrefabInstance:
       propertyPath: Vertical
       value: VerticalPlayerB
       objectReference: {fileID: 0}
+    - target: {fileID: 72877200529348055, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f8fa26dc517c4549833a54f1ed53ab7, type: 3}
 --- !u!4 &469526652 stripped
@@ -4409,6 +4414,36 @@ PrefabInstance:
         type: 3}
       propertyPath: Vertical
       value: VerticalPlayerA
+      objectReference: {fileID: 0}
+    - target: {fileID: 72877200529348055, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 72877200529348055, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: m_SkinWidth
+      value: 37.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 72877200529348055, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 72877200529348055, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: m_Height
+      value: 2.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 72877200529348055, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: m_SlopeLimit
+      value: 46.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 72877200529348055, guid: 3f8fa26dc517c4549833a54f1ed53ab7,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f8fa26dc517c4549833a54f1ed53ab7, type: 3}
@@ -7772,6 +7807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098968920781160414, guid: 4b8a4a7c67473614d9fca4786f6afd27,
+        type: 3}
+      propertyPath: m_CookingOptions
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b8a4a7c67473614d9fca4786f6afd27, type: 3}
